@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Maquette</title>
+  </head>
+    <header>
+        <ul>
+            <li><a href="#">Raphaël Bascoul</a></li>
+            <li style="float:right"><a href="#">À propos</a></li>            
+            <li style="float:right"><a href="#">Compétences</a></li>
+            <li style="float:right"><a href="#">Réalisations</a></li>            
+            <li style="float:right"><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="bann">
+        </div>
+
+        <div class="whoAmI">
+            <img src="./assets/development.png"
+            alt="langages de développement"
+            width="300px">
+            <section>
+                <h2>Qui suis-je ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perferendis ratione deserunt laborum? Quibusdam voluptatum quis odio quos? Labore magni possimus animi vitae repellat corporis cum officia architecto asperiores vel
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dicta sed deleniti suscipit necessitatibus, pariatur aliquam magnam tenetur voluptatum in ipsam iusto deserunt eos quo veritatis ipsa error quidem quae?</p>
+            <a href="./assets/CV.pdf" download="CV">
+                <button type="button">Télécharger mon CV</button>
+            </a>
+        </div>
+        </section>
+        
+    <div class="section2">
+        <h2>Mes compétences</h2>
+        <div class="compétences">
+                
+                <div class="front">
+                    <h3>FRONT</h3>
+                    
+                    <div class="skills">
+                        <p>HTML / CSS</p>
+                        <div class="container">
+                            <div class="html-css">oui</div>
+                        </div>
+                        <p>Javascript</p>
+                        <div class="container">
+                            <div class="JS">oui</div>
+                        </div>
+                        <p>Angular</p>
+                        <div class="container">
+                            <div class="angular">oui</div>
+                        </div>
+                        <p>VueJs</p>
+                        <div class="container">
+                            <div class="vuejs">oui</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back">
+                <h3>BACK</h3>
+
+                <div class="skills">
+                    <p>PHP</p>
+                    <div class="container">
+                        <div class="php">oui</div>
+                    </div>
+                    <p>SQL</p>
+                    <div class="container">
+                        <div class="sql">oui</div>
+                    </div>
+                    <p>Symfony</p>
+                    <div class="container">
+                        <div class="sym">oui</div>
+                    </div>
+                    <p>NodeJs</p>
+                    <div class="container">
+                        <div class="nodejs">oui</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="realisations">
+        <h2>Mes réalisations</h2>
+
+        <div class="real-container">
+            <div class="wordpress">
+                <h3>Site Wordpress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tenetur neque magni eos dicta</p>
+                <button>Voir le site</button>
+            </div>
+            <div class="prestashop">
+                <h3>Site Prestashop</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tenetur neque magni eos dicta</p>
+                <button>Voir le site</button>
+            </div>
+            <div class="symfony">
+                <h3>Site Symfony</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tenetur neque magni eos dicta</p>
+                <button>Voir le site</button>
+            </div>
+            <div class="sym2">
+                <h3>Site Symfony</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, tenetur neque magni eos dicta</p>
+                <button>Voir le site</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Me contacter</h2>
+        
+
+        <div class="formexample">
+        <form method="post" action="#" class="form">
+            <label for="nom">Nom</label><br>
+            <input type="text" name="name" id="name" placeholder="Nom" required /><br>
+
+            <label for="prénom">Prénom</label><br>
+            <input type="text" name="firstName" id="fName" placeholder="Prénom" /><br>
+
+            <label for="objet" id="objet">Objet </label><br>
+            <input list="data-list" class="data-list" placeholder="Choisir un motif..."/><br>
+            <datalist id="data-list">
+                <option value="Création de site"></option>
+                <option value="Prise de rendez-vous"></option>
+                <option value="Recrutement"></option>
+                <option value="Autre"></option>
+              </datalist>
+
+            <label for="message">Message</label><br>
+            <input type="textarea" name="textarea" id="area"/><br>
+
+            <input type="submit" value="Send request" id="btn-form">
+
+        </form>
+        </div>
+    </div>
+
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

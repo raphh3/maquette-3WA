@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  display: inline;
+  padding-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.bann {
+  padding: 20em;
+  background-image: url('./assets/social-media.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whoAmI {
+  display: flex;
+  padding: 5em 10em 5em 20em;
+  background-color: rgb(216, 216, 216);
+  align-items: center;
+}
+
+.whoAmI img {
+  padding-right: 10em;
+}
+
+h2 {
+  color: rgb(20, 185, 218);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  background-color: rgb(17, 117, 231);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.compétences {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 20em;
+  background-color: #ddd;
+}
+
+h3 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills {
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+}
+
+.html-css {
+  width: 90%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+  box-shadow: 0 10px 20px #04aa6d;
+}
+
+.JS {
+  width: 80%;
+  background-color: blue;
+  color: blue;
+  box-shadow: 0 10px 20px blue;
+}
+
+.angular {
+  width: 70%;
+  background-color: orange;
+  color: orange;
+  box-shadow: 0 10px 20px orange;
+}
+
+.vuejs {
+  width: 60%;
+  background-color: red;
+  color: red;
+  box-shadow: 0 10px 20px red;
+}
+
+.php {
+  width: 90%;
+  background-color: #04aa6d;
+  color: #04aa6d;
+  box-shadow: 0 10px 20px #04aa6d;
+}
+
+.sql {
+  width: 80%;
+  background-color: blue;
+  color: blue;
+  box-shadow: 0 10px 20px blue;
+}
+
+.sym {
+  width: 70%;
+  background-color: orange;
+  color: orange;
+  box-shadow: 0 10px 20px orange;
+}
+
+.nodejs {
+  width: 60%;
+  background-color: red;
+  color: red;
+  box-shadow: 0 10px 20px red;
+}
+
+.realisations {
+  background-color: rgb(216, 216, 216);
+  height: 500px;
+  padding-top: 30px;
+}
+
+.real-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.wordpress {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  padding: 4%;
+  top: 25%;
+  text-align: center;
+  width: 150px;
+}
+
+.prestashop {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  padding: 4%;
+  top: 25%;
+  text-align: center;
+  width: 150px;
+}
+
+.symfony {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  padding: 4%;
+  top: 25%;
+  text-align: center;
+  width: 150px;
+}
+.sym2 {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+  padding: 4%;
+  top: 25%;
+  text-align: center;
+  width: 150px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  padding-top: 30px;
+}
+
+form {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#name,
+#fName {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.data-list {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+#area {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  height: 200px;
+  width: 500px;
+}
+
+#btn-form {
+  background-color: rgb(17, 117, 231);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+}
+
+#btn-form:hover {
+  background-color: blue;
+  cursor: pointer;
+}
